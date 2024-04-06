@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    transition: all 2s;
+    transition: all .5s;
 }
 
 .futurebody {
@@ -31,7 +31,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    transition: all 2s;
+    transition: all .5s;
 }
 
 
@@ -69,18 +69,17 @@ h1 {
     display: none;
 }
 
-/* past header */
-
-#banner {
+.banner {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     position: relative;
-    display: none;
 }
 
-#homeis1 {
+/* past header */
+
+.homeis1 {
     flex-grow: 1;
     text-align: right;
     font-family: "myriad-pro", sans-serif;
@@ -90,7 +89,7 @@ h1 {
     margin: 0;
 }
 
-#pasttitle {
+.pasttitle {
     flex-grow: 1;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
@@ -104,15 +103,7 @@ h1 {
 
 /* future header */
 
-#banner2 {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    position: relative;
-}
-
-#homeis2 {
+.homeis2 {
     flex-grow: 1;
     text-align: right;
     font-family: "myriad-pro", sans-serif;
@@ -123,7 +114,7 @@ h1 {
 }
 
 
-#futuretitle {
+.futuretitle {
     flex-grow: 1;
     text-align: left;
     font-family: "erbaum", sans-serif;
@@ -146,7 +137,7 @@ main {
     margin: auto;
 }
 
-.whitemain section {
+.brownmain section {
     flex: 1;
     border: 2px rgb(22, 19, 16) dashed;
     margin: 0;
@@ -231,7 +222,7 @@ section li {
     margin-top: 27px;
 }
 
-.whitemain h3 {
+.brownmain h3 {
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     margin: 0;
@@ -250,7 +241,7 @@ section li {
     color: white;
 }
 
-.whitemain section a {
+.brownmain section a {
     line-height: 1.1em;
     font-family: "myriad-pro", sans-serif;
     font-size: 12px;
@@ -267,7 +258,7 @@ section li {
     padding-right: 15px;
 }
 
-.whitemain section a:hover {
+.brownmain section a:hover {
     background-color: orange;
     border-radius: 25px;
     color: #333;
@@ -348,6 +339,25 @@ section.switch a:hover {
         transform: translateY(75%);
     }
 
+    .buttonblue {
+        position: absolute;
+        align-items: center;
+        top: 400px;
+        background-image: url('images/switchblue.png'); /* Set the URL of your image */
+        background-size: 125px 125px; /* Cover the entire button */
+        background-position: center; /* Center the image within the button */
+        background-repeat: no-repeat; /* Don't repeat the image */
+        border: none; /* Remove default button border */
+        cursor: pointer;
+        background-color: transparent;
+        width: 255px;
+        height: 170px;
+        margin: 0;
+        margin: 20px;
+        z-index: 20;
+        transform: translateY(75%);
+    }
+
     main {
         display: flex;
         margin: 0;
@@ -375,7 +385,7 @@ section.switch a:hover {
 
 /* past header */
 
-#banner {
+.banner {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -383,7 +393,7 @@ section.switch a:hover {
     position: relative;
 }
 
-#homeis1 {
+.homeis1 {
     flex-grow: 1;
     text-align: right;
     font-family: "myriad-pro", sans-serif;
@@ -393,7 +403,7 @@ section.switch a:hover {
     margin: 0;
 }
 
-#pasttitle {
+.pasttitle {
     flex-grow: 1;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
@@ -407,16 +417,7 @@ section.switch a:hover {
 
 /* future header */
 
-#banner2 {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    position: relative;
-    display: none;
-}
-
-#homeis2 {
+.homeis2 {
     flex-grow: 1;
     text-align: right;
     font-family: "myriad-pro", sans-serif;
@@ -427,7 +428,7 @@ section.switch a:hover {
 }
 
 
-#futuretitle {
+.futuretitle {
     flex-grow: 1;
     text-align: left;
     font-family: "erbaum", sans-serif;

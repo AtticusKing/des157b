@@ -59,6 +59,7 @@ h1 {
 
 .h1white {
     color: white;
+    font-weight: 500;
 }
 
 .shown {
@@ -214,6 +215,7 @@ section li {
 
 .bluemain h3 {
     font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     margin: 0;
     font-size: 18px;

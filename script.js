@@ -11,6 +11,8 @@
 
     const footer = document.querySelector('footer');
 
+    const shooting = new Audio('sounds/shooting.mp3');
+
     
     let mode = 'dark';
 
@@ -72,5 +74,6 @@
 
             mode = 'dark';
         }
+        shooting.play();
     });
 })();

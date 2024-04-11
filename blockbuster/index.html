@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blockbuster</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kvf4unu.css">
 
     <style>
         #video {
@@ -26,6 +27,66 @@
         .fa-expand:hover {
             cursor: pointer;
         }
+
+        .hidden {
+            opacity: 0;
+        }
+
+        .showing {
+            opacity: 1;
+        }
+
+        section {
+            position: absolute;
+        }
+
+        #line1 {
+            bottom: 0%;
+            left: 0%;
+            transition-duration: 1s;
+            /* filter: drop-shadow(0px 0px 4px #0b072c); */
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 70px;
+            font-family: "myriad-pro", sans-serif;
+        }
+
+        #line2 {
+            bottom: 0%;
+            left: 0%;
+            transition-duration: 1s;
+            /* filter: drop-shadow(0px 0px 4px #0b072c); */
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 70px;
+            font-family: "myriad-pro", sans-serif;
+        }
+
+        #line3 {
+            bottom: 0%;
+            left: 0%;
+            transition-duration: 1s;
+            /* filter: drop-shadow(0px 0px 4px #0b072c); */
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 70px;
+            font-family: "myriad-pro", sans-serif;
+        }
+
+        #line4 {
+            bottom: 0%;
+            left: 0%;
+            transition-duration: 1s;
+            /* filter: drop-shadow(0px 0px 4px #0b072c); */
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 70px;
+            font-family: "myriad-pro", sans-serif;
+        }
         
     </style>
 </head>
@@ -40,9 +101,29 @@
 
     <i class="fas fa-expand"></i>
 
+    <section id="section">
+        <p id="line1" class="hidden">If there is magic</p>
+
+        <p id="line2" class="hidden">within the world</p>
+        
+        <p id="line3" class="hidden">it is contained</p>
+
+        <p id="line4" class="hidden">in water</p>
+
+    </section>
+
     <script>
         (function(){
             'use strict';
+
+            const fs = document.querySelector('.fa-expand');
+            const section = document.querySelector('#section');
+            const line1 = document.querySelector('#line1');
+            const line2 = document.querySelector('#line2');
+            const line3 = document.querySelector('#line3');
+            const line4 = document.querySelector('#line4');
+
+            const intervalID = setInterval(checkTime, 1000);
 
             fs.addEventListener('click', function(){
 
@@ -52,6 +133,23 @@
                     document.exitFullscreen();
                 }
             });
+
+
+
+            function checkTime() {
+                if (1 < video.currentTime && video.currentTime < 3){
+                    line1.className = "showing";
+                } else {
+                    line1.className = "hidden";
+                }
+                if (5 < video.currentTime && video.currentTime < 7) {
+                    line2.className = "showing";
+                } else {
+                    line2.className = "hidden";
+                }
+            }
+
+            
 
         })();
     </script>

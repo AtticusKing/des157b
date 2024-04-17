@@ -49,6 +49,12 @@
 
 
 
+    document.addEventListener('DOMContentLoaded', function() {
+        const defaultButton = document.querySelector('.qualityBtn[data-quality="high"]');
+        if (defaultButton) {
+            defaultButton.classList.add('active');
+        }
+    });
 
         qualityButtons.addEventListener('click', function(event) {
 if (event.target.classList.contains('qualityBtn')) {
@@ -67,6 +73,13 @@ if (event.target.classList.contains('qualityBtn')) {
     }
     video.src = sourceURL;
     video.load();
+
+    const activeButton = document.querySelector('.qualityBtn.active');
+    if (activeButton) {
+        activeButton.classList.remove('active');
+    }
+
+    event.target.classList.add('active');
 }
 });       
 

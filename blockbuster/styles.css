@@ -118,3 +118,7 @@ section {
 .qualityBtn:hover {
     background-color: lightgray;
 }
+
+.qualityBtn.active {
+    border: 2px solid black;
+}

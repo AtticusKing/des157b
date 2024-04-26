@@ -1,0 +1,239 @@
+html {
+    background-color: #030303;
+    height: 100%;
+}
+
+body{
+    color: white;
+    font-family: "myriad-pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#section1 {
+    width: 210px;
+    height: 100%;
+    border-color: #404041;
+    border-right: .5pt solid #404041;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+#section2 {
+    
+}
+
+#section3 {
+    
+}
+
+#homeflex {
+    display: flex;
+    flex-direction: row;
+}
+
+#greyline {
+    width: 180px;
+    height: .5px;
+    border-top: .5pt solid #404041;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+
+}
+
+#newplaylist {
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+    background-color: #404041;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#newplaylist:hover {
+    cursor: pointer;
+}
+
+#newplaylist p {
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+#newplaylist img {
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+h4 {
+    font-size: 14.1872 pt;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1px;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 11.1996 pt;
+    color: #B3B3B4;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+.hidden {
+    display: none;
+}
+
+#homeicon {
+    height: 32.5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    background-color: #404041;
+    border-radius: 5px;
+}
+
+#homeicon:hover {
+    cursor: pointer;
+}
+
+#homeicon img {
+    height: 15px;
+    width: 15px;
+}
+
+#abouticon {
+    height: 32.5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    background-color: #404041;
+    border-radius: 5px;
+}
+
+#abouticon:hover {
+    cursor: pointer;
+}
+
+#abouticon img {
+    height: 15px;
+    width: 15px;
+}
+
+#genreicon {
+    height: 32.5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    background-color: #404041;
+    border-radius: 5px;
+}
+
+#genreicon:hover {
+    cursor: pointer;
+}
+
+#genreicon img {
+    height: 15px;
+    width: 15px;
+}
+
+#mondaybox {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    margin-bottom: 10px;
+    background-color: #404041;
+    border-radius: 5px;  
+}
+
+#mondaybox:hover {
+    cursor: pointer;
+}
+
+#tuesdaybox {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    margin-bottom: 10px;
+    background-color: #404041;
+    border-radius: 5px;  
+}
+
+#tuesdaybox:hover {
+    cursor: pointer;
+}
+
+#wednesdaybox {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    margin-bottom: 10px;
+    background-color: #404041;
+    border-radius: 5px;  
+}
+
+#wednesdaybox:hover {
+    cursor: pointer;
+}
+
+#thursdaybox {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    margin-bottom: 10px;
+    background-color: #404041;
+    border-radius: 5px;  
+}
+
+#thursdaybox:hover {
+    cursor: pointer;
+}
+
+#fridaybox {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    margin-bottom: 10px;
+    background-color: #404041;
+    border-radius: 5px;  
+}
+
+#fridaybox:hover {
+    cursor: pointer;
+}

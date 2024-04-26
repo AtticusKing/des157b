@@ -24,18 +24,12 @@ main {
     height: 100%;
     border-color: #404041;
     border-right: .5pt solid #404041;
-    background-color: #111111;
+    background-color: #030303;
     margin: 0;
     padding: 0;
 }
 
-#section2 {
-    
-}
 
-#section3 {
-    
-}
 
 #homeflex {
     display: flex;
@@ -85,17 +79,17 @@ main {
 }
 
 h4 {
-    font-size: 14.1872 pt;
+    font-size: 14.1872px;
     margin: 0;
     padding: 0;
     margin-bottom: 1px;
-    padding-top: 5px;
+    padding-top: 8px;
     margin-left: 15px;
     font-weight: 300;
 }
 
 h5 {
-    font-size: 11.1996 pt;
+    font-size: 11.1996px;
     color: #B3B3B4;
     margin: 0;
     padding: 0;
@@ -119,6 +113,12 @@ h5 {
     border-radius: 5px;
 }
 
+#homeicon p {
+    margin: 0;
+    padding: 0;
+    margin: 5px;
+}
+
 #homeicon:hover {
     cursor: pointer;
 }
@@ -126,6 +126,8 @@ h5 {
 #homeicon img {
     height: 15px;
     width: 15px;
+    margin: 8px;
+    margin-left: 25px;
 }
 
 #abouticon {
@@ -135,8 +137,14 @@ h5 {
     margin: 0;
     padding: 0;
     margin: 7.5px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;
+}
+
+#abouticon p {
+    margin: 0;
+    padding: 0;
+    margin: 5px;
 }
 
 #abouticon:hover {
@@ -146,6 +154,8 @@ h5 {
 #abouticon img {
     height: 15px;
     width: 15px;
+    margin: 8px;
+    margin-left: 25px;
 }
 
 #genreicon {
@@ -155,8 +165,14 @@ h5 {
     margin: 0;
     padding: 0;
     margin: 7.5px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;
+}
+
+#genreicon p {
+    margin: 0;
+    padding: 0;
+    margin: 5px;
 }
 
 #genreicon:hover {
@@ -166,6 +182,8 @@ h5 {
 #genreicon img {
     height: 15px;
     width: 15px;
+    margin: 8px;
+    margin-left: 25px;
 }
 
 #mondaybox {
@@ -174,7 +192,7 @@ h5 {
     padding: 0;
     margin: 7.5px;
     margin-bottom: 10px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;  
 }
 
@@ -188,7 +206,7 @@ h5 {
     padding: 0;
     margin: 7.5px;
     margin-bottom: 10px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;  
 }
 
@@ -202,7 +220,7 @@ h5 {
     padding: 0;
     margin: 7.5px;
     margin-bottom: 10px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;  
 }
 
@@ -216,7 +234,7 @@ h5 {
     padding: 0;
     margin: 7.5px;
     margin-bottom: 10px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;  
 }
 
@@ -230,10 +248,132 @@ h5 {
     padding: 0;
     margin: 7.5px;
     margin-bottom: 10px;
-    background-color: #404041;
+   /*  background-color: #404041; */
     border-radius: 5px;  
 }
 
 #fridaybox:hover {
     cursor: pointer;
+}
+
+
+#homeflex {
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+}
+
+#homeflex img {
+    width: 125px;
+    height: 125px;
+    margin: 0;
+    padding: 0;
+    margin-right: 45px;
+}
+
+#homeflex h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 17.3591px;
+    font-weight: 300;
+}
+
+#homeflex p {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    font-size: 17.3591px;
+    color: #B3B3B4;
+    font-weight: 300;
+}
+
+#profile {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}
+
+#profileflex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 200px;
+    margin-bottom: 22px;
+}
+
+#profileflex h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 28.7509px;
+    margin-left: 18px;
+}
+
+#profileflex h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    color: #B3B3B4;
+    font-size: 18.0484px;
+    margin-left: 18px;
+}
+
+#dancebutton:hover {
+    cursor: pointer;
+}
+
+#hiphopbutton:hover {
+    cursor: pointer;
+}
+
+#popbutton:hover {
+    cursor: pointer;
+}
+
+#orchestrabutton:hover {
+    cursor: pointer;
+}
+
+#rockbutton:hover {
+    cursor: pointer;
+}
+
+
+
+
+#dataheader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+#datasection img {
+    height: 232.757px;
+    width: 232.757px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#datatitles {
+    margin-left: 42px;
+}
+
+#datatitles h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 33.1247px;
+    margin-bottom: 24px;
+}
+
+#datatitles p {
+    color: #B3B3B4;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }

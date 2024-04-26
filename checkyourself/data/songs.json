@@ -1,0 +1,91 @@
+{
+    "Monday": [
+        {
+            "title": "Treatment",
+            "artist": "Labrinth",
+            "album": "Electronic Earth",
+            "runtime": "4:31",
+            "repeats": 4
+        },
+        {
+            "title": "Summer",
+            "artist": "Calvin Harris",
+            "album": "Motion",
+            "runtime": "3:34",
+            "repeats": 3
+        },
+        {
+            "title": "It's Time",
+            "artist": "LSD",
+            "album": "LSD",
+            "runtime": "3:32",
+            "repeats": 2
+        },
+        {
+            "title": "It Ain't Me",
+            "artist": "Kygo & Selena Gomez",
+            "album": "Kids in Love",
+            "runtime": "4:02",
+            "repeats": 2
+        },
+        {
+            "title": "Faded",
+            "artist": "Alan Walker",
+            "album": "Faded (Remixes)",
+            "runtime": "3:33",
+            "repeats": 2
+        },
+        {
+            "title": "Break My Heart",
+            "artist": "Dua Lipa",
+            "album": "Future Nostalgia",
+            "runtime": "3:50",
+            "repeats": 1
+        }
+    ],
+    "Tuesday": [
+        {
+            "title": "Pursuit of Happiness",
+            "artist": "Kid Cudi",
+            "album": "Man on the Moon",
+            "runtime": "4:44",
+            "repeats": 5
+          },
+          {
+            "title": "Still D.R.E.",
+            "artist": "Dr. Dre & Eminem",
+            "album": "2001",
+            "runtime": "4:31",
+            "repeats": 3
+          },
+          {
+            "title": "Forgot about Dre",
+            "artist": "Dr. Dre & Eminem",
+            "album": "2001",
+            "runtime": "5:15",
+            "repeats": 3
+          },
+          {
+            "title": "m.A.A.d city",
+            "artist": "Kendrick Lamar",
+            "album": "Good kid, m.A.A.d city",
+            "runtime": "5:51",
+            "repeats": 2
+          },
+          {
+            "title": "Better Now",
+            "artist": "Post Malone",
+            "album": "Beerbongs & Bentleys",
+            "runtime": "3:52",
+            "repeats": 1
+          },
+          {
+            "title": "Flashing Lights",
+            "artist": "Kanye West",
+            "album": " Graduation",
+            "runtime": "3:58",
+            "repeats": 1
+          }
+    ]
+  }
+  

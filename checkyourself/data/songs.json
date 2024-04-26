@@ -86,6 +86,124 @@
             "runtime": "3:58",
             "repeats": 1
           }
+    ],
+    "Wednesday": [
+        {
+            "title": "Born from Ashes",
+            "artist": "Eternal Eclipses",
+            "album": "Forgotten Odes",
+            "runtime": "3:08",
+            "repeats": 8
+          },
+          {
+            "title": "One Day",
+            "artist": "Hans Zimmer",
+            "album": "At World's End",
+            "runtime": "4:03",
+            "repeats": 5
+          },
+          {
+            "title": "Now We Are Free",
+            "artist": "Hans Zimmer",
+            "album": "Gladiator",
+            "runtime": "4:15",
+            "repeats": 4
+          },
+          {
+            "title": "Oogway Ascends",
+            "artist": "Hans Zimmer",
+            "album": "Kung Fu Panda",
+            "runtime": "3:58",
+            "repeats": 3
+          },
+          {
+            "title": "S.T.A.Y.",
+            "artist": "Hans Zimmer",
+            "album": "Inception",
+            "runtime": "6:24",
+            "repeats": 2
+          }
+    ],
+    "Thursday": [
+        {
+            "title": "When the Party's Over",
+            "artist": "Billie Eilish",
+            "album": "When We All Fall Asleep",
+            "runtime": "3:14",
+            "repeats": 3
+          },
+          {
+            "title": "Blinding Lights",
+            "artist": "The Weeknd",
+            "album": "After Hours",
+            "runtime": "3:22",
+            "repeats": 3
+          },
+          {
+            "title": "Next Up Forever",
+            "artist": "AJR",
+            "album": "Neotheater",
+            "runtime": "4:17",
+            "repeats": 2
+          },
+          {
+            "title": "Light Switch",
+            "artist": "Charlie Puth",
+            "album": "Charlie",
+            "runtime": "3:25",
+            "repeats": 1
+          },
+          {
+            "title": "Trampoline",
+            "artist": "SHAED & Zayn",
+            "album": "Melt",
+            "runtime": "3:02",
+            "repeats": 1
+          }
+    ],
+    "Friday": [
+        {
+            "title": "Violin Tsunami",
+            "artist": "Kishi Bashi",
+            "album": "Omoiyari",
+            "runtime": "5:40",
+            "repeats": 6
+        },
+        {
+            "title": "Elephant Woman",
+            "artist": "Blonde Redhead",
+            "album": "Misery is a Butterfly",
+            "runtime": "4:53",
+            "repeats": 5
+        },
+        {
+            "title": "When I'm Small",
+            "artist": "Phantogram",
+            "album": "Eyelid Movies",
+            "runtime": "4:12",
+            "repeats": 5
+        },
+        {
+            "title": "Ready To Let Go",
+            "artist": "Cage The Elephant",
+            "album": "Social Cues",
+            "runtime": "3:08",
+            "repeats": 4
+        },
+        {
+            "title": "Are You What You Want to Be?",
+            "artist": "Foster The People",
+            "album": "Supermodel",
+            "runtime": "4:31",
+            "repeats": 4
+        },
+        {
+            "title": "Dreams",
+            "artist": "Beck",
+            "album": "Colors",
+            "runtime": "5:15",
+            "repeats": 2
+        }
     ]
   }
   

@@ -377,3 +377,128 @@ h5 {
     padding: 0;
     margin-bottom: 10px;
 }
+
+#data img {
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#data {
+    margin-left: 72.5px;
+    margin-top: 55px;
+}
+
+#line1 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+    
+}
+
+#line2 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+}
+
+#line3 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+}
+
+#line4 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+}
+
+#line5 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+}
+
+#line6 {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 14.938px;
+    font-weight: 300;
+    margin-left: 21.77px;
+    margin-top: 5px;
+}
+
+.artist {
+    position: absolute;
+    color: #B3B3B4;
+    font-size: 14.938px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 375px;
+}
+
+.album {
+    position: absolute;
+    color: #B3B3B4;
+    font-size: 14.938px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 675px;
+}
+
+.time {
+    position: absolute;
+    color: #B3B3B4;
+    font-size: 14.938px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 1040px;
+}
+
+.repeat {
+    display: none;
+    margin-top: 5px;
+}
+

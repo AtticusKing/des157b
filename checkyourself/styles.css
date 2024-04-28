@@ -394,7 +394,9 @@ h5 {
     margin-top: 65px;
 }
 
-
+#datasection {
+    width: 800px;
+}
 
 #datasection img {
     height: 232.757px;
@@ -404,11 +406,11 @@ h5 {
     padding: 0;
 }
 
-#datatitles {
+.datatitles {
     margin-left: 42px;
 }
 
-#datatitles h1 {
+.datatitles h1 {
     margin: 0;
     padding: 0;
     font-weight: 300;
@@ -416,7 +418,7 @@ h5 {
     margin-bottom: 24px;
 }
 
-#datatitles p {
+.datatitles p {
     color: #B3B3B4;
     margin: 0;
     padding: 0;
@@ -564,12 +566,22 @@ h5 {
     margin-top: 5px;
 }
 
-
-
 #section3 {
     width: 800px;
     margin: 0;
     padding: 0;
     margin: auto;
+}
+
+#abouttitle {
+    width: 400px;
+    color: white;
+    font-size: x-large;
+
+}
+
+#aboutp {
+    width: 500px; 
+    font-size: large;
     color: #B3B3B4;
 }

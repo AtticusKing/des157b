@@ -38,10 +38,10 @@
     homeButton.classList.add("graybutton");
 
     aboutButton.addEventListener("click", function() {
-        // Hide section2
+        
         section2.classList.add("hidden");
         section4.classList.add("hidden");
-        // Show section3
+        
         section3.classList.remove("hidden");
 
         aboutButton.classList.add("graybutton");
@@ -57,10 +57,10 @@
     });
 
     homeButton.addEventListener("click", function() {
-        // Hide section2
+       
         section3.classList.add("hidden");
         section4.classList.add("hidden");
-        // Show section3
+        
         section2.classList.remove("hidden");
 
         homeButton.classList.add("graybutton");
@@ -82,8 +82,6 @@
         
         alert("Sorry, this feature is under construction.");
     });
-
-
 
 
 
@@ -201,11 +199,6 @@
         thursdayheader.style.display = 'none';
         fridayheader.style.display = '';
     });
-
-
-
-
-    
 
 
 
@@ -336,16 +329,6 @@
 
 
 
-
-
-
-
-
-
-
-    
-
-
    
     async function init() {
         const response = await fetch('data/songs.json');
@@ -356,7 +339,7 @@
             return;
         }
 
-        // Add event listeners to each day box
+    
         mondaybox.addEventListener('click', () => displayPlaylist('monday', songsData));
         tuesdaybox.addEventListener('click', () => displayPlaylist('tuesday', songsData));
         wednesdaybox.addEventListener('click', () => displayPlaylist('wednesday', songsData));
@@ -379,14 +362,14 @@
             return;
         }
 
-        // Clear previous data
+        
         dataContainer.innerHTML = '';
 
-        // Display playlist data
+        
         playlist.forEach(song => {
             const songHTML = `
                 <div id="line">
-                    <img src="${song.image}">
+                    <img src="${song.image}" alt="small image">
                     <p class="title">${song.title}</p>
                     <p class="artist">${song.artist}</p>
                     <p class="album">${song.album}</p>
@@ -398,8 +381,5 @@
     }
 
     init();
-
-
-
 
 })();

@@ -102,6 +102,34 @@ h5 {
     display: none;
 }
 
+#backicon {
+    height: 32.5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin: 7.5px;
+    /* background-color: #404041; */
+    border-radius: 5px;
+}
+
+#backicon p {
+    margin: 0;
+    padding: 0;
+    margin: 5px;
+}
+
+#backicon:hover {
+    cursor: pointer;
+}
+
+#backicon img {
+    height: 15px;
+    width: 15px;
+    margin: 8px;
+    margin-left: 25px;
+}
+
 #homeicon {
     height: 32.5px;
     display: flex;
@@ -152,34 +180,6 @@ h5 {
 }
 
 #abouticon img {
-    height: 15px;
-    width: 15px;
-    margin: 8px;
-    margin-left: 25px;
-}
-
-#genreicon {
-    height: 32.5px;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    margin: 7.5px;
-    /* background-color: #404041; */
-    border-radius: 5px;
-}
-
-#genreicon p {
-    margin: 0;
-    padding: 0;
-    margin: 5px;
-}
-
-#genreicon:hover {
-    cursor: pointer;
-}
-
-#genreicon img {
     height: 15px;
     width: 15px;
     margin: 8px;

@@ -101,48 +101,6 @@
     ],
     "wednesday": [
         {
-            "title": "Born from Ashes",
-            "artist": "Eternal Eclipses",
-            "album": "Forgotten Odes",
-            "runtime": "3:08",
-            "repeats": 8,
-            "image": "images/born.png"
-          },
-          {
-            "title": "One Day",
-            "artist": "Hans Zimmer",
-            "album": "At World's End",
-            "runtime": "4:03",
-            "repeats": 5,
-            "image": "images/pirates.png"
-          },
-          {
-            "title": "Now We Are Free",
-            "artist": "Hans Zimmer",
-            "album": "Gladiator",
-            "runtime": "4:15",
-            "repeats": 4,
-            "image": "images/gladiator.png"
-          },
-          {
-            "title": "Oogway Ascends",
-            "artist": "Hans Zimmer",
-            "album": "Kung Fu Panda",
-            "runtime": "3:58",
-            "repeats": 3,
-            "image": "images/orchestracover.png"
-          },
-          {
-            "title": "S.T.A.Y.",
-            "artist": "Hans Zimmer",
-            "album": "Inception",
-            "runtime": "6:24",
-            "repeats": 2,
-            "image": "images/stay.png"
-          }
-    ],
-    "thursday": [
-        {
             "title": "When the Party's Over",
             "artist": "Billie Eilish",
             "album": "When We All Fall Asleep",
@@ -181,6 +139,48 @@
             "runtime": "3:02",
             "repeats": 1,
             "image": "images/tramp.png"
+          }
+    ],
+    "thursday": [
+        {
+            "title": "Born from Ashes",
+            "artist": "Eternal Eclipses",
+            "album": "Forgotten Odes",
+            "runtime": "3:08",
+            "repeats": 8,
+            "image": "images/born.png"
+          },
+          {
+            "title": "One Day",
+            "artist": "Hans Zimmer",
+            "album": "At World's End",
+            "runtime": "4:03",
+            "repeats": 5,
+            "image": "images/pirates.png"
+          },
+          {
+            "title": "Now We Are Free",
+            "artist": "Hans Zimmer",
+            "album": "Gladiator",
+            "runtime": "4:15",
+            "repeats": 4,
+            "image": "images/gladiator.png"
+          },
+          {
+            "title": "Oogway Ascends",
+            "artist": "Hans Zimmer",
+            "album": "Kung Fu Panda",
+            "runtime": "3:58",
+            "repeats": 3,
+            "image": "images/orchestracover.png"
+          },
+          {
+            "title": "S.T.A.Y.",
+            "artist": "Hans Zimmer",
+            "album": "Inception",
+            "runtime": "6:24",
+            "repeats": 2,
+            "image": "images/stay.png"
           }
     ],
     "friday": [

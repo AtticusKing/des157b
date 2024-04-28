@@ -349,7 +349,7 @@ h5 {
 
 
 
-#dataheader {
+#danceheader {
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -357,6 +357,44 @@ h5 {
     margin-left: 65px;
     margin-top: 65px;
 }
+
+#hiphopheader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+#popheader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+#orchestraheader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+#rockheader {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+
 
 #datasection img {
     height: 232.757px;
@@ -490,7 +528,7 @@ h5 {
     position: absolute;
     font-size: 14.938px;
     font-weight: 300;
-    margin-left: 36px;
+    margin-left: 40px;
     margin-top: 5px;
 }
 

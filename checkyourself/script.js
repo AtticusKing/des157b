@@ -8,11 +8,29 @@
     const homeButton = document.getElementById("homeicon");
     const backButton = document.getElementById("backicon");
 
+    const mondayheader = document.getElementById("danceheader");
+    const tuesdayheader = document.getElementById("hiphopheader");
+    const wednesdayheader = document.getElementById("popheader");
+    const thursdayheader = document.getElementById("orchestraheader");
+    const fridayheader = document.getElementById("rockheader");
+
+    const mondaybox = document.getElementById("mondaybox");
+    const tuesdaybox = document.getElementById("tuesdaybox");
+    const wednesdaybox = document.getElementById("wednesdaybox");
+    const thursdaybox = document.getElementById("thursdaybox");
+    const fridaybox = document.getElementById("fridaybox");
+
     backButton.addEventListener("click", function() {
         window.history.back();
         backButton.classList.add("graybutton");
         aboutButton.classList.remove("graybutton");
         homeButton.classList.remove("graybutton");
+
+        mondaybox.classList.remove("graybutton");
+        tuesdaybox.classList.remove("graybutton");
+        wednesdaybox.classList.remove("graybutton");
+        thursdaybox.classList.remove("graybutton");
+        fridaybox.classList.remove("graybutton");
     });
 
     section3.classList.add("hidden");
@@ -30,6 +48,12 @@
         homeButton.classList.remove("graybutton");
         backButton.classList.remove("graybutton");
 
+        mondaybox.classList.remove("graybutton");
+        tuesdaybox.classList.remove("graybutton");
+        wednesdaybox.classList.remove("graybutton");
+        thursdaybox.classList.remove("graybutton");
+        fridaybox.classList.remove("graybutton");
+
     });
 
     homeButton.addEventListener("click", function() {
@@ -42,6 +66,12 @@
         homeButton.classList.add("graybutton");
         aboutButton.classList.remove("graybutton");
         backButton.classList.remove("graybutton");
+
+        mondaybox.classList.remove("graybutton");
+        tuesdaybox.classList.remove("graybutton");
+        wednesdaybox.classList.remove("graybutton");
+        thursdaybox.classList.remove("graybutton");
+        fridaybox.classList.remove("graybutton");
     });
 
 
@@ -56,12 +86,6 @@
 
 
 
-
-    const mondaybox = document.getElementById("mondaybox");
-    const tuesdaybox = document.getElementById("tuesdaybox");
-    const wednesdaybox = document.getElementById("wednesdaybox");
-    const thursdaybox = document.getElementById("thursdaybox");
-    const fridaybox = document.getElementById("fridaybox");
 
     mondaybox.addEventListener("click", function() {
         section3.classList.add("hidden");
@@ -247,7 +271,15 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.add("graybutton");
+
+        mondayheader.classList.add("hidden");
+        tuesdayheader.classList.add("hidden");
+        wednesdayheader.classList.add("hidden");
+        thursdayheader.classList.add("hidden");
+        fridayheader.classList.remove("hidden");
+
     });
+
 
 
 
@@ -276,6 +308,12 @@
         wednesdaybox.addEventListener('click', () => displayPlaylist('wednesday', songsData));
         thursdaybox.addEventListener('click', () => displayPlaylist('thursday', songsData));
         fridaybox.addEventListener('click', () => displayPlaylist('friday', songsData));
+
+        dancebutton.addEventListener('click', () => displayPlaylist('monday', songsData));
+        hiphopbutton.addEventListener('click', () => displayPlaylist('tuesday', songsData));
+        popbutton.addEventListener('click', () => displayPlaylist('wednesday', songsData));
+        orchestrabutton.addEventListener('click', () => displayPlaylist('thursday', songsData));
+        rockbutton.addEventListener('click', () => displayPlaylist('friday', songsData));
     }
 
     function displayPlaylist(day, songsData) {

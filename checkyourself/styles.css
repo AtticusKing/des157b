@@ -137,7 +137,7 @@ h5 {
     margin: 0;
     padding: 0;
     margin: 7.5px;
-    background-color: #404041;
+    /* background-color: #404041; */
     border-radius: 5px;
 }
 
@@ -185,6 +185,13 @@ h5 {
     margin: 8px;
     margin-left: 25px;
 }
+
+
+.graybutton {
+    background-color: #404041;
+}
+
+
 
 #mondaybox {
     height: 50px;

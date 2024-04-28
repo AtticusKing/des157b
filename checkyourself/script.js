@@ -102,6 +102,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = '';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     tuesdaybox.addEventListener("click", function() {
@@ -119,6 +125,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = '';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     wednesdaybox.addEventListener("click", function() {
@@ -136,6 +148,12 @@
         wednesdaybox.classList.add("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = '';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     thursdaybox.addEventListener("click", function() {
@@ -153,6 +171,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.add("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = '';
+        fridayheader.style.display = 'none';
     });
 
     fridaybox.addEventListener("click", function() {
@@ -170,6 +194,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.add("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = '';
     });
 
 
@@ -203,6 +233,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = '';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     hiphopbutton.addEventListener("click", function() {
@@ -220,6 +256,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = '';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     popbutton.addEventListener("click", function() {
@@ -237,6 +279,12 @@
         wednesdaybox.classList.add("graybutton");
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = '';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = 'none';
     });
 
     orchestrabutton.addEventListener("click", function() {
@@ -254,6 +302,12 @@
         wednesdaybox.classList.remove("graybutton");
         thursdaybox.classList.add("graybutton");
         fridaybox.classList.remove("graybutton");
+
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = '';
+        fridayheader.style.display = 'none';
     });
 
     rockbutton.addEventListener("click", function() {
@@ -272,11 +326,11 @@
         thursdaybox.classList.remove("graybutton");
         fridaybox.classList.add("graybutton");
 
-        mondayheader.classList.add("hidden");
-        tuesdayheader.classList.add("hidden");
-        wednesdayheader.classList.add("hidden");
-        thursdayheader.classList.add("hidden");
-        fridayheader.classList.remove("hidden");
+        mondayheader.style.display = 'none';
+        tuesdayheader.style.display = 'none';
+        wednesdayheader.style.display = 'none';
+        thursdayheader.style.display = 'none';
+        fridayheader.style.display = '';
 
     });
 

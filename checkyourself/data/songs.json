@@ -1,208 +1,236 @@
 {
-    "Monday": [
+    "monday": [
         {
             "title": "Treatment",
             "artist": "Labrinth",
             "album": "Electronic Earth",
             "runtime": "4:31",
-            "repeats": 4
+            "repeats": 4,
+            "image": "images/labrinth.png"
         },
         {
             "title": "Summer",
             "artist": "Calvin Harris",
             "album": "Motion",
             "runtime": "3:34",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/summer.png"
         },
         {
             "title": "It's Time",
             "artist": "LSD",
             "album": "LSD",
             "runtime": "3:32",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/lsd.png"
         },
         {
             "title": "It Ain't Me",
             "artist": "Kygo & Selena Gomez",
             "album": "Kids in Love",
             "runtime": "4:02",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/aintme.png"
         },
         {
             "title": "Faded",
             "artist": "Alan Walker",
             "album": "Faded (Remixes)",
             "runtime": "3:33",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/faded.png"
         },
         {
             "title": "Break My Heart",
             "artist": "Dua Lipa",
             "album": "Future Nostalgia",
             "runtime": "3:50",
-            "repeats": 1
+            "repeats": 1,
+            "image": "images/breakmyheart.png"
         }
     ],
-    "Tuesday": [
+    "tuesday": [
         {
             "title": "Pursuit of Happiness",
             "artist": "Kid Cudi",
             "album": "Man on the Moon",
             "runtime": "4:44",
-            "repeats": 5
+            "repeats": 5,
+            "image": "images/cudi.png"
           },
           {
             "title": "Still D.R.E.",
             "artist": "Dr. Dre & Eminem",
             "album": "2001",
             "runtime": "4:31",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/dre.png"
           },
           {
             "title": "Forgot about Dre",
             "artist": "Dr. Dre & Eminem",
             "album": "2001",
             "runtime": "5:15",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/dre.png"
           },
           {
             "title": "m.A.A.d city",
             "artist": "Kendrick Lamar",
             "album": "Good kid, m.A.A.d city",
             "runtime": "5:51",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/kendrick.png"
           },
           {
             "title": "Better Now",
             "artist": "Post Malone",
             "album": "Beerbongs & Bentleys",
             "runtime": "3:52",
-            "repeats": 1
+            "repeats": 1,
+            "image": "images/post.png"
           },
           {
             "title": "Flashing Lights",
             "artist": "Kanye West",
             "album": " Graduation",
             "runtime": "3:58",
-            "repeats": 1
+            "repeats": 1,
+            "image": "images/flashing.png"
           }
     ],
-    "Wednesday": [
+    "wednesday": [
         {
             "title": "Born from Ashes",
             "artist": "Eternal Eclipses",
             "album": "Forgotten Odes",
             "runtime": "3:08",
-            "repeats": 8
+            "repeats": 8,
+            "image": "images/born.png"
           },
           {
             "title": "One Day",
             "artist": "Hans Zimmer",
             "album": "At World's End",
             "runtime": "4:03",
-            "repeats": 5
+            "repeats": 5,
+            "image": "images/pirates.png"
           },
           {
             "title": "Now We Are Free",
             "artist": "Hans Zimmer",
             "album": "Gladiator",
             "runtime": "4:15",
-            "repeats": 4
+            "repeats": 4,
+            "image": "images/gladiator.png"
           },
           {
             "title": "Oogway Ascends",
             "artist": "Hans Zimmer",
             "album": "Kung Fu Panda",
             "runtime": "3:58",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/orchestracover.png"
           },
           {
             "title": "S.T.A.Y.",
             "artist": "Hans Zimmer",
             "album": "Inception",
             "runtime": "6:24",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/stay.png"
           }
     ],
-    "Thursday": [
+    "thursday": [
         {
             "title": "When the Party's Over",
             "artist": "Billie Eilish",
             "album": "When We All Fall Asleep",
             "runtime": "3:14",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/billie.png"
           },
           {
             "title": "Blinding Lights",
             "artist": "The Weeknd",
             "album": "After Hours",
             "runtime": "3:22",
-            "repeats": 3
+            "repeats": 3,
+            "image": "images/blinding.png"
           },
           {
             "title": "Next Up Forever",
             "artist": "AJR",
             "album": "Neotheater",
             "runtime": "4:17",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/ajr.png"
           },
           {
             "title": "Light Switch",
             "artist": "Charlie Puth",
             "album": "Charlie",
             "runtime": "3:25",
-            "repeats": 1
+            "repeats": 1,
+            "image": "images/charlie.png"
           },
           {
             "title": "Trampoline",
             "artist": "SHAED & Zayn",
             "album": "Melt",
             "runtime": "3:02",
-            "repeats": 1
+            "repeats": 1,
+            "image": "images/tramp.png"
           }
     ],
-    "Friday": [
+    "friday": [
         {
             "title": "Violin Tsunami",
             "artist": "Kishi Bashi",
             "album": "Omoiyari",
             "runtime": "5:40",
-            "repeats": 6
+            "repeats": 6,
+            "image": "images/violin.png"
         },
         {
             "title": "Elephant Woman",
             "artist": "Blonde Redhead",
             "album": "Misery is a Butterfly",
             "runtime": "4:53",
-            "repeats": 5
+            "repeats": 5,
+            "image": "images/woman.png"
         },
         {
             "title": "When I'm Small",
             "artist": "Phantogram",
             "album": "Eyelid Movies",
             "runtime": "4:12",
-            "repeats": 5
+            "repeats": 5,
+            "image": "images/phant.png"
         },
         {
             "title": "Ready To Let Go",
             "artist": "Cage The Elephant",
             "album": "Social Cues",
             "runtime": "3:08",
-            "repeats": 4
+            "repeats": 4,
+            "image": "images/elephant.png"
         },
         {
             "title": "Are You What You Want to Be?",
             "artist": "Foster The People",
             "album": "Supermodel",
             "runtime": "4:31",
-            "repeats": 4
+            "repeats": 4,
+            "image": "images/are.png"
         },
         {
             "title": "Dreams",
             "artist": "Beck",
             "album": "Colors",
             "runtime": "5:15",
-            "repeats": 2
+            "repeats": 2,
+            "image": "images/dreams.png"
         }
     ]
   }

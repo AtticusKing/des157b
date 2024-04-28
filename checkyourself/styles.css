@@ -398,6 +398,18 @@ h5 {
     margin-top: 55px;
 }
 
+#line {
+    height: 28px;
+    width: 1075px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5pt solid #404041;
+}
+
 #line1 {
     height: 28px;
     width: 1075px;
@@ -470,10 +482,15 @@ h5 {
     padding-bottom: 10px;
 }
 
+.image {
+    position: absolute;
+}
+
 .title {
+    position: absolute;
     font-size: 14.938px;
     font-weight: 300;
-    margin-left: 21.77px;
+    margin-left: 36px;
     margin-top: 5px;
 }
 

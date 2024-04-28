@@ -252,7 +252,62 @@
 
 
 
+
+
+
+
+
     
+
+
+   
+    async function init() {
+        const response = await fetch('data/songs.json');
+        const songsData = await response.json();
+
+        if (!songsData) {
+            console.error('Failed to fetch song data.');
+            return;
+        }
+
+        // Add event listeners to each day box
+        mondaybox.addEventListener('click', () => displayPlaylist('monday', songsData));
+        tuesdaybox.addEventListener('click', () => displayPlaylist('tuesday', songsData));
+        wednesdaybox.addEventListener('click', () => displayPlaylist('wednesday', songsData));
+        thursdaybox.addEventListener('click', () => displayPlaylist('thursday', songsData));
+        fridaybox.addEventListener('click', () => displayPlaylist('friday', songsData));
+    }
+
+    function displayPlaylist(day, songsData) {
+        const dataContainer = document.getElementById('data');
+        const playlist = songsData[day];
+
+        if (!playlist) {
+            console.error('Playlist data not found for', day);
+            return;
+        }
+
+        // Clear previous data
+        dataContainer.innerHTML = '';
+
+        // Display playlist data
+        playlist.forEach(song => {
+            const songHTML = `
+                <div id="line">
+                    <img src="${song.image}">
+                    <p class="title">${song.title}</p>
+                    <p class="artist">${song.artist}</p>
+                    <p class="album">${song.album}</p>
+                    <p class="time">${song.runtime}</p>
+                </div>
+            `;
+            dataContainer.innerHTML += songHTML;
+        });
+    }
+
+    init();
+
+
 
 
 })();

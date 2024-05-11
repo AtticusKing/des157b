@@ -1,0 +1,122 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+}
+
+body:after {
+    content: "";
+    height: 2500px;
+    width: 1px;
+    display: block;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+main{
+    overflow: hidden;
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+#zoom{
+    position: fixed;
+    width: 1200px;
+    height: auto;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+#blueBackground {
+    top: 0;
+}
+
+#plane {
+    left: -10%;
+}
+
+#crane{
+    left: 10%;
+}
+
+#leftCity {
+    right: 1%;
+}
+
+#rightCity{
+    left: 1%;
+}
+
+#rightGray{
+    left: -6%;
+}
+
+#midGray{
+    left: 2%;
+}
+
+#leftGray{
+    right: -6%;
+}
+
+#leftBuilding{
+    right: 6%;
+}
+
+#rightBuilding{
+    left: 6%;
+}
+
+#farLeftBuilding{
+    right: 6%;
+}
+
+#farRightBuilding{
+    left: 6%;
+}
+
+#leftSidewalk{
+    right: -5%;
+}
+
+#rightSidewalk{
+    left: -5%;
+}
+
+#rightCar{
+    left: -6%;
+}
+
+#leftCar{
+    right: -6%;
+}
+
+#leftAlley{
+    left: 3%;
+}
+
+#rightAlley{
+    right: 3%;
+}

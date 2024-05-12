@@ -33,12 +33,14 @@ img {
 main{
     overflow: hidden;
     width: 1200px;
-    height: 750px;
+    height: 675px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
+    border: 10px solid lightgray;
+    
 }
 
 #zoom{
@@ -51,72 +53,197 @@ main{
 
 #blueBackground {
     top: 0;
+    pointer-events: none;
 }
 
 #plane {
     left: -10%;
+    pointer-events: none;
 }
 
 #crane{
     left: 10%;
+    pointer-events: none;
 }
 
 #leftCity {
     right: 1%;
+    pointer-events: none;
 }
 
 #rightCity{
     left: 1%;
+    pointer-events: none;
 }
 
 #rightGray{
     left: -6%;
+    pointer-events: none;
 }
 
 #midGray{
     left: 2%;
+    pointer-events: none;
 }
 
 #leftGray{
     right: -6%;
+    pointer-events: none;
 }
 
 #leftBuilding{
     right: 6%;
+    pointer-events: none;
 }
 
 #rightBuilding{
     left: 6%;
+    pointer-events: none;
 }
 
 #farLeftBuilding{
     right: 6%;
+    pointer-events: none;
 }
 
 #farRightBuilding{
     left: 6%;
+    pointer-events: none;
 }
 
 #leftSidewalk{
-    right: -5%;
+    right: -2%;
+    pointer-events: none;
 }
 
 #rightSidewalk{
-    left: -5%;
+    left: -2%;
+    pointer-events: none;
 }
 
 #rightCar{
     left: -6%;
+    pointer-events: none;
 }
 
 #leftCar{
     right: -6%;
+    pointer-events: none;
 }
 
 #leftAlley{
-    left: 3%;
+    left: 0%;
+    pointer-events: none;
 }
 
 #rightAlley{
-    right: 3%;
+    right: 0%;
+    pointer-events: none;
+}
+
+
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: lightgray;
+    color: rgb(158, 158, 158);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#leftfooter{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: -300px;
+}
+
+#rightfooter{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -300px;
+}
+
+header{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+}
+
+#title{
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+    position: fixed;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#subtitle{
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    font-size: 25px;
+    position: fixed;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: inherit;
 }

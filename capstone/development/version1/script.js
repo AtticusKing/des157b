@@ -171,12 +171,14 @@ function submitAIForm(event) {
     event.preventDefault();
     const shortResponse = document.getElementById('short-response').value;
     const aiImpact = document.getElementById('ai-impact').value;
+    const opinionChange = document.getElementById('opinion-change').value;
     
     // Clear the input fields
     document.getElementById('short-response').value = '';
     document.getElementById('ai-impact').value = 'positive';
+    document.getElementById('opinion-change').value = 'yes';
 
-    responses.push({ shortResponse, aiImpact });
+    responses.push({ shortResponse, aiImpact, opinionChange });
     displayResponses();
     document.getElementById('overlay').style.display = 'block';
 }
@@ -189,7 +191,8 @@ function displayResponses() {
         responseDiv.classList.add('response-card');
         responseDiv.innerHTML = `
             <p><strong>Thoughts:</strong> ${response.shortResponse}</p>
-            <p><strong>Impact:</strong> ${response.aiImpact}</p>`;
+            <p><strong>Impact:</strong> ${response.aiImpact}</p>
+            <p><strong>Opinion Changed:</strong> ${response.opinionChange}</p>`;
         responsesDiv.appendChild(responseDiv);
     });
 }
@@ -197,3 +200,4 @@ function displayResponses() {
 function closeOverlay() {
     document.getElementById('overlay').style.display = 'none';
 }
+

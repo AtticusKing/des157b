@@ -13,6 +13,7 @@ function addHistory(tabName) {
     historyStack = historyStack.slice(0, historyIndex + 1);
     historyStack.push(tabName);
     historyIndex++;
+    updateNavButtons();
 }
 
 function goBack() {
@@ -21,6 +22,7 @@ function goBack() {
         const tabName = historyStack[historyIndex];
         showTab(tabName);
         highlightTab(tabName);
+        updateNavButtons();
     }
 }
 
@@ -30,6 +32,7 @@ function goForward() {
         const tabName = historyStack[historyIndex];
         showTab(tabName);
         highlightTab(tabName);
+        updateNavButtons();
     }
 }
 
@@ -99,43 +102,57 @@ function checkEnter(event) {
     }
 }
 
+function updateNavButtons() {
+    const backButton = document.querySelector('.nav-button[onclick="goBack()"]');
+    const forwardButton = document.querySelector('.nav-button[onclick="goForward()"]');
+
+    if (historyIndex <= 0) {
+        backButton.disabled = true;
+        backButton.style.opacity = 0.5;
+    } else {
+        backButton.disabled = false;
+        backButton.style.opacity = 1;
+    }
+
+    if (historyIndex >= historyStack.length - 1) {
+        forwardButton.disabled = true;
+        forwardButton.style.opacity = 0.5;
+    } else {
+        forwardButton.disabled = false;
+        forwardButton.style.opacity = 1;
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.tab-link').click();
     updateAddressBar('search');
+    updateNavButtons();
     setTimeout(() => {
         document.getElementById('intro-page').style.display = 'none';
         document.querySelector('.browser').style.display = 'block';
     }, 3000);
 });
 
-
-
-
-
-
-
 const targets = document.querySelectorAll(".timeline ol li");
 const threshold = 0.5;
 const ANIMATED_CLASS = "in-view";
 
 function callback(entries, observer) {
-  entries.forEach((entry) => {
-    const elem = entry.target;
-    if (entry.intersectionRatio >= threshold) {
-      elem.classList.add(ANIMATED_CLASS);
-      observer.unobserve(elem);
-    } else {
-      elem.classList.remove(ANIMATED_CLASS);
-    }
-  });
+    entries.forEach((entry) => {
+        const elem = entry.target;
+        if (entry.intersectionRatio >= threshold) {
+            elem.classList.add(ANIMATED_CLASS);
+            observer.unobserve(elem);
+        } else {
+            elem.classList.remove(ANIMATED_CLASS);
+        }
+    });
 }
 
 const observer = new IntersectionObserver(callback, { threshold });
 for (const target of targets) {
-  observer.observe(target);
+    observer.observe(target);
 }
-
-
 
 function updateClock() {
     const fakeYear = "2041";
@@ -153,7 +170,7 @@ function updateClock() {
     hour = hour ? hour : 12;
 
     const timeString = `${hour.toString().padStart(2, '0')}:${minute}:${second} ${amPm}`;
-    const dateString = `${day}, ${month} ${date}, ${fakeYear}`;
+    const dateString = `${day, month} ${date}, ${fakeYear}`;
 
     document.getElementById('clock-display').textContent = timeString;
     document.getElementById('date-display').textContent = dateString;
@@ -162,8 +179,6 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 document.addEventListener('DOMContentLoaded', updateClock);
-
-
 
 let responses = [];
 
@@ -178,26 +193,4 @@ function submitAIForm(event) {
     document.getElementById('ai-impact').value = 'positive';
     document.getElementById('opinion-change').value = 'yes';
 
-    responses.push({ shortResponse, aiImpact, opinionChange });
-    displayResponses();
-    document.getElementById('overlay').style.display = 'block';
-}
-
-function displayResponses() {
-    const responsesDiv = document.getElementById('responses');
-    responsesDiv.innerHTML = '';
-    responses.forEach(response => {
-        const responseDiv = document.createElement('div');
-        responseDiv.classList.add('response-card');
-        responseDiv.innerHTML = `
-            <p><strong>Thoughts:</strong> ${response.shortResponse}</p>
-            <p><strong>Impact:</strong> ${response.aiImpact}</p>
-            <p><strong>Opinion Changed:</strong> ${response.opinionChange}</p>`;
-        responsesDiv.appendChild(responseDiv);
-    });
-}
-
-function closeOverlay() {
-    document.getElementById('overlay').style.display = 'none';
-}
-
+    responses.push({ shortResponse, aiImpact, opinionChange })

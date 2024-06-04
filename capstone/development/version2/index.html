@@ -24,11 +24,19 @@
             <input type="text" id="address-bar" readonly>
         </div>
         <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'clock')">Clock</button>
             <button class="tab-link" onclick="openTab(event, 'search')">Search</button>
             <button class="tab-link" onclick="openTab(event, 'article')">Article</button>
             <button class="tab-link" onclick="openTab(event, 'news')">News</button>
-            <button class="tab-link" onclick="openTab(event, 'clock')">Clock</button>
             <button class="tab-link tab-link-opinion" onclick="openTab(event, 'opinion')">Opinion</button>
+        </div>
+
+        <div id="clock" class="tab-content">
+            <div class="container">
+                <h1>Local Time</h1>
+                <p id="clock-display">--:--:--</p>
+                <p id="date-display"></p>
+            </div>
         </div>
 
         <div id="search" class="tab-content">
@@ -212,14 +220,6 @@
 
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div id="clock" class="tab-content">
-            <div class="container">
-                <h1>Local Time</h1>
-                <p id="clock-display">--:--:--</p>
-                <p id="date-display"></p>
             </div>
         </div>
 

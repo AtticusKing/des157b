@@ -193,25 +193,4 @@ function submitAIForm(event) {
     document.getElementById('ai-impact').value = 'positive';
     document.getElementById('opinion-change').value = 'yes';
 
-    responses.push({ shortResponse, aiImpact, opinionChange });
-    displayResponses();
-    document.getElementById('overlay').style.display = 'block';
-}
-
-function displayResponses() {
-    const responsesDiv = document.getElementById('responses');
-    responsesDiv.innerHTML = '';
-    responses.forEach(response => {
-        const responseDiv = document.createElement('div');
-        responseDiv.classList.add('response-card');
-        responseDiv.innerHTML = `
-            <p><strong>Thoughts:</strong> ${response.shortResponse}</p>
-            <p><strong>Impact:</strong> ${response.aiImpact}</p>
-            <p><strong>Opinion Changed:</strong> ${response.opinionChange}</p>`;
-        responsesDiv.appendChild(responseDiv);
-    });
-}
-
-function closeOverlay() {
-    document.getElementById('overlay').style.display = 'none';
-}
+    responses.push({ shortResponse, aiImpact, opinionChange })

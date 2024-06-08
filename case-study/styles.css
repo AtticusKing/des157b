@@ -1,0 +1,176 @@
+/* CSS Resets */
+h1, h2, h3, h4, p, nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+img { max-width: 100%; display: block; }
+* { box-sizing: border-box;}
+
+/* end Resets */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1a1a1a;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #00ffff;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00ffff;
+    color: #0d0d0d;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    color: #00ffff;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #00ffff;
+    margin-bottom: .5em;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+/* Additional Styles for Sections */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 1rem;
+    color: #e0e0e0;
+    text-align: left;
+}
+
+.content p {
+    margin-bottom: 1.5em;
+}
+
+.content ol li {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+.content img {
+    margin: 20px 0;
+    border: 2px solid #00ffff;
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+.content img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer p, footer address {
+    color: #00ffff;
+    margin: 10px 0;
+    text-align: left;
+}
+
+footer a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Header Image Border */
+header img {
+    border: 2px solid #00ffff;
+    padding: 5px;
+    background-color: #1a1a1a;
+}
+
+/* Link Styles */
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Specific styling for the first image */
+#overview img {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    background-color: #1a1a1a;
+}
